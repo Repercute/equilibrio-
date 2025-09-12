@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    padding: 70px;
+    background-color: rgb(250, 250, 252);
+
+}
+
+.logo{
+
+  height: 100px;
+
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+
+.logo2 img{
+  width: 350px;    
+}
+
+.logo2 p{
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+
+
+.inicio {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px; 
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 300px;
+  }
+
+  .inicio div p {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+.entrar{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    
+}
+
+  
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 250px;
+    height: 100px;
+  }
+  
+
+form input{
+    border-left: black;
+    border-top: black;
+    border-right: black;
+    
+}
+
+form input:focus{
+  outline: none;
+}
+
+form button{
+    background-color: rgb(56, 193, 56);
+    border-color: forestgreen;
+    color: black;
+    font-size: 16px;
+    border-radius: 16px;
+    height: 24px;
+    
+}
+
+.esquecisenha{
+  margin-top: 15px;
+  color:forestgreen;
+  font-size: 12px;
+  border: none;
+  background-color:  rgb(250, 250, 252);
+}
+
